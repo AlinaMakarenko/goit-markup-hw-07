@@ -648,7 +648,7 @@ transition: background-color 250ms;
 .overlay__text{
 margin: 0px;
 }
-.projects {
+.project__title, .project-last__title{
   font-family: 'Roboto',sans-serif ;
   font-weight: 700;
   color: var(--black-text);
@@ -674,7 +674,7 @@ margin: 0px;
   
 }
 
-.list-title {
+.project__text, .project-last__text {
   font-family: 'Roboto',sans-serif ;
   color: var(--scroll-text);
   font-weight: 400;
@@ -716,21 +716,21 @@ justify-content: space-between;
   margin: 0px;
 }
 
-.projects{
+.project__title, .project-last__title{
   margin: 0px;
 }
-.list-title{
+.project__text, .project-last__text{
   margin: 0px;
 }
 .list-title-footer{
   margin: 0px;
 }
-.projects-list-title{
+.project{
 border: 1px solid var(--border-header);
 padding: 20px 24px;
 text-align: left;
 }
-.projects-list-title-last{
+.project-last{
   border: 1px solid var(--border-header);
 margin-right: 0px;
 padding: 20px 24px;

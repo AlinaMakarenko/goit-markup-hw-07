@@ -1,0 +1,39 @@
+.socials__icon{
+  display: block;
+  fill: currentColor;
+}
+.scroll__icon{
+  fill: var(--scroll-text);
+}
+.social__link:hover .team__icon,
+.social__link:focus .team__icon{
+  fill: var(--main-light);
+  }
+  .clients__link:hover .clients__icon,
+  .clients__link:focus .clients__icon{
+    border-color: var(--main-color);
+    fill: var(--main-color);
+  }
+  .socials__link:hover .socials__icon,
+.socials__link:focus .socials__icon{
+  fill: var(--main-light);
+  }
+  .modal__icon{
+   width: 18px;
+    height: 18px;
+ }
+ .element__icon{
+  position: absolute;
+    left: 12px;
+    bottom: 11px;
+    fill: var(--corporation-color);
+    transition: fill var(--btn-sh-duration) var(--timing-function);
+}
+.element:hover .element__icon,
+.element:focus-within .element__icon{
+  cursor: pointer;
+  fill: var(--main-color);
+}
+.line__icon {
+    fill: currentColor;
+   }

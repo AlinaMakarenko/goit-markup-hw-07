@@ -1,0 +1,66 @@
+.team{
+  display: flex;
+  padding-top: 101px;
+  padding-bottom: 94px;
+}
+
+.team__list{
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0px;
+}
+
+.team__list li{
+  margin-right: 30px;
+}
+.team__list li:last-child {
+  margin-right: 0px;
+
+}
+.team__item{
+  box-shadow: var(--shadow);
+    background-color: var(--main-light);
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.team {
+  background-color: var(--team-background);
+}
+.team__name {
+  font-family: 'Roboto',sans-serif ;
+  color: var(--corporation-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team__name{
+  display: flex;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+justify-content: center;
+}
+
+
+
+ .team__name-vocation{
+   padding-top: 33px;
+   padding-bottom: 33px;
+ }
+
+  .team__vocation{
+    margin: 0px;
+  }
+
+.team__vocation {
+  font-family: 'Roboto',sans-serif ;
+  color: var(--scroll-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}

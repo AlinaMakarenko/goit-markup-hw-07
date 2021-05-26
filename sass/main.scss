@@ -1027,7 +1027,7 @@ opacity: 0;
     cursor: pointer;
     color: var(--main-light);
     background: var(--main-color);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
     border-radius: 4px;
     transition: background-color var(--btn-sh-duration) var(--timing-function);

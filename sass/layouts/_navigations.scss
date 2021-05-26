@@ -10,9 +10,9 @@
   }
 .nav__item{
   position: relative;
-}
-.nav__item:active{
+&:active{
   color: var(--main-color);
+}
 }
 .nav__link{
   color: var(--corporation-color);
@@ -28,17 +28,14 @@
  position: relative;
     transition-duration: var(--btn-sh-duration);
     transition-timing-function: var(--timing-function);
-}
-.nav__link:active {
+&:active,
+  &:hover,
+&:focus{
   color: var(--main-color);
 }
-.nav__link:hover,
-.nav__link:focus{
-  color: var(--main-color);
 }
-.nav__link-active{
-  color: var(--main-color);
-}
+
+
 .nav__link-active::after{
   position: absolute;
   content: "";

@@ -14,9 +14,10 @@
   margin-right: 10px;
   fill: var(--scroll-text);
 stroke: currentColor;
-}
-.address__icon:hover{
+
+&:hover{
   fill: var(--main-color);
+}
 }
 .address__item{
   display: flex;
@@ -34,12 +35,13 @@ align-items: center;
 display: flex;
 transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__link:hover,
-.address__link:focus {
+
+&:hover,
+&:focus {
   color: var(--main-color);
   background-color: transparent;
+}
 }
 address {
   font-style: normal;
@@ -59,9 +61,9 @@ address {
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-.footer__address:hover,
-.footer__address:focus {
+
+&:hover,
+&:focus {
   color: var(--main-color);
   background-color: transparent;}
-  
+}

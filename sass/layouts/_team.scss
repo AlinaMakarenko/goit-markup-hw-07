@@ -14,10 +14,9 @@
 
 .team__list li{
   margin-right: 30px;
-}
-.team__list li:last-child {
+&:last-child {
   margin-right: 0px;
-
+}
 }
 .team__item{
   box-shadow: var(--shadow);

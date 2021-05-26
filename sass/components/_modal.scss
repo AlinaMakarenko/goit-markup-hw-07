@@ -60,6 +60,13 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border var(--btn-sh-duration) var(--timing-function);
+    &:hover,
+  &:focus{
+    outline: none;
+      cursor: pointer;
+      border: 1px solid var(--main-color);
+      border-radius: 4px;
+  }
 }
 .visually-hidden{
   position: absolute !important;
@@ -89,12 +96,12 @@ font-size: 14px;
     font-size: 14px;
     line-height: 24px;
     color: var(--scroll-text);
-}
-   .checkbox__label ::placeholder{
-     color: rgba(117, 117, 117, 0.5);
 
+   &::placeholder{
+     color: rgba(117, 117, 117, 0.5);
    }
-   .checkbox__label.checkbox__label::before{
+   
+   &::before{
      content: "";
      display: inline-block;
      width: 16px;
@@ -102,9 +109,8 @@ font-size: 14px;
      margin-right: 7px;
      border: 2px solid var(--corporation-color);
      border-radius: 4px;
-   }
-   .checkbox__label:hover,
-   .checkbox__label:focus{
+   &:hover,
+   &:focus{
      cursor: pointer;
    }
    .checkbox__input:hover + .checkbox__label::before,
@@ -120,13 +126,7 @@ border-radius: 4px;
       background-size: contain;
       border: 2px solid rgba(33, 33, 33, 0);
     }
-.comment__input:hover,
-  .comment__input:focus{
-    outline: none;
-      cursor: pointer;
-      border: 1px solid var(--main-color);
-      border-radius: 4px;
-  }
+
 .line{
     margin-right: 12px;
   }
@@ -147,11 +147,13 @@ outline: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     transition: border var(--btn-sh-duration) var(--timing-function);
-}
-.line__input:hover, .line__input:focus {
+
+&:hover,
+ &:focus {
     border: 1px solid var(--main-color);
     cursor: pointer;
     outline: none;
+}
 }
 .filed{
   position: relative;
@@ -174,6 +176,13 @@ padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border var(--btn-sh-duration) var(--timing-function);
+    &:hover,
+  &:focus{
+outline: none;
+      cursor: pointer;
+      border: 1px solid var(--main-color);
+      border-radius: 4px;
+  }
 }
 
 
@@ -190,10 +199,3 @@ padding-left: 42px;
     justify-content: center;
     }
     
-.element__input:hover,
-  .element__input:focus{
-outline: none;
-      cursor: pointer;
-      border: 1px solid var(--main-color);
-      border-radius: 4px;
-  }

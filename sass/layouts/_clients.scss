@@ -9,9 +9,7 @@ padding-bottom: 94px;
     margin: 0px;
     padding: 0px;
   }
-  .clients__item:last-child{
-    margin-right: 0px;
-  }
+  
   
    
   
@@ -22,6 +20,13 @@ padding-bottom: 94px;
     border: 1px solid var(--icon-color);
     justify-content: center;
     margin-right: 30px;
+    &:last-child{
+    margin-right: 0px;
+  }
+  &:hover,
+  &:focus{
+    border-color: var(--main-color);
+  }
     
   }
   .clients__link{
@@ -36,7 +41,4 @@ padding-bottom: 94px;
 transition: background-color 250ms;
   }
   
-  .clients__item:hover,
-  .clients__item:focus{
-    border-color: var(--main-color);
-  }
+  

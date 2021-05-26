@@ -23,11 +23,12 @@ transition: background-color 250ms;
 align-items: center;
  text-align: center;
  justify-content: center;
-}
-.projects__button:hover,
-.projects__button:focus {
+
+&:hover,
+&:focus {
   color: var(--main-light);
   background-color: var(--main-color);
+}
 }
 .projects__button {
   font-family: 'Roboto',sans-serif ;
@@ -59,12 +60,12 @@ align-items: center;
      top: 8px;
     left: 490px;
     transition: fill var(--btn-sh-duration) var(--timing-function);
-}
-.modal__button:hover,
-.modal__button:focus,
-.modal__button:active{
+&:hover,
+&:focus,
+&:active{
   cursor: pointer;
   fill: var(--main-color);
+}
 }
 .checkbox__button{
   display: block;
@@ -84,10 +85,10 @@ align-items: center;
     border: none;
     border-radius: 4px;
     transition: background-color var(--btn-sh-duration) var(--timing-function);
-}
-.checkbox__button:hover,
-.checkbox__button:focus{
+&:hover,
+&:focus{
   background-color: rgb(24, 140, 232);
+}
 }
 .line__button {
     width: 200px;

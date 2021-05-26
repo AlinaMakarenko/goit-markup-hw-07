@@ -15,10 +15,11 @@
 .container-heading__list li{
   margin-right: 30px;
   position: relative;
-}
-.container-heading__list li:last-child {
+  &:last-child {
   margin-right: 0px;
 }
+}
+
 .container-heading__overlay{
   background-color: var(--we-do-bg);
     bottom: 0;

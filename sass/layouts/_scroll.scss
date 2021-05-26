@@ -29,9 +29,9 @@ justify-content: center;
 .scroll__list li{
   width: 270px;
   margin-right: 33px;
-  }
-.scroll__list li:last-child{
+  &:last-child{
   padding-right: 0px;
+}
 }
 
 .scroll__text {

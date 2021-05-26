@@ -1,0 +1,45 @@
+.projects__list{
+  display:flex;
+  margin: 0px;
+  margin-bottom: 50px;
+  padding-left: 0px;
+  justify-content: center;
+}
+.projects__list li{
+  display: flex;
+  margin-left: 8px;
+  
+}
+
+.project__text, .project-last__text {
+  font-family: 'Roboto',sans-serif ;
+  color: var(--scroll-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.card-projects-list{
+display: inline-flex;
+text-align: center;
+margin-top: 30px;
+}
+.card-projects .li{
+  margin-right: 30px;
+}
+.project__text, .project-last__text{
+  margin: 0px;
+}
+
+.project{
+border: 1px solid var(--border-header);
+padding: 20px 24px;
+text-align: left;
+}
+.project-last{
+  border: 1px solid var(--border-header);
+margin-right: 0px;
+padding: 20px 24px;
+text-align: left;
+}
